@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmallestEnclosingCircle</name>
+    </assembly>
+    <members>
+        <member name="T:VL.Lib.Mathematics.SmallestEnclosingCircle">
+            <summary>
+            Calculate the smallest circle that encloses a given set of points (in 2D)
+            </summary>
+        </member>
+        <member name="M:VL.Lib.Mathematics.SmallestEnclosingCircle.SmallestCircle(VL.Lib.Collections.Spread{Stride.Core.Mathematics.Vector2})">
+            <summary>
+            Returns the smallest circle that encloses all the given points. Runs in expected O(n) time, randomized.
+            Note: If 0 points are given, a circle of radius -1 is returned. If 1 point is given, a circle of radius 0 is returned.
+            </summary>
+            <param name="points"> Spread of Vector2</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
