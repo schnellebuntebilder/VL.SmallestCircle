@@ -12,7 +12,7 @@
     <description>Calculate the smallest enclosing circle for a set of 2D points</description>
     <copyright>Copyright © 2021. All rights reserved.</copyright>
     <tags>VVVV, VL, 2D</tags>
-	<license type="expression">LGPL-2.1</license>
+	<license type="expression">	LGPL-2.1-or-later</license>
     <icon>icon\nugeticon.png</icon>
   </metadata>
   <files>
