@@ -136,7 +136,7 @@
             <Pin Id="HKK5Ex9cbjTQPJF11JqPyA" Name="Render Time" Kind="OutputPin" />
           </Node>
           <Node Bounds="141,490,142,19" Id="DXLexc4z3XxMtwFosYKdn1">
-            <p:NodeReference LastCategoryFullName="2D" LastSymbolSource="VL.SmallestEnclosingCircle.vl">
+            <p:NodeReference LastCategoryFullName="2D" LastSymbolSource="VL.SmallestCircle.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="SmallestCircle" />
             </p:NodeReference>
@@ -438,5 +438,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="JVSiOeOeYRVLBMdFzPjLOi" Location="VL.Skia" Version="2021.3.3" />
-  <DocumentDependency Id="KtfaTVAtchnLjIFgI70DH2" Location="../VL.SmallestEnclosingCircle.vl" />
+  <DocumentDependency Id="NgnbeAIfCXhO6fvT4JosjG" Location="../VL.SmallestCircle.vl" />
 </Document>
