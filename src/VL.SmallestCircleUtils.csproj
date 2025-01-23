@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+    <PropertyGroup>
+        <OutputPath>..\lib\</OutputPath>
+        <DocumentationFile>..\lib\net8.0\SmallestEnclosingCircle.xml</DocumentationFile>
+    </PropertyGroup>
+    
+  <ItemGroup>
+    <PackageReference Include="VL.Core" Version="2025.7.0-0024-g213ba6afdf" />
+    <PackageReference Include="VL.CoreLib" Version="2025.7.0-0024-g213ba6afdf" />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <Using Include="VL.Core" />
+    <Using Include="VL.Core.Import" />
+    <Using Include="VL.Lib.Collections" />
+    <Using Include="Stride.Core.Mathematics" />
+  </ItemGroup>
+
+</Project>

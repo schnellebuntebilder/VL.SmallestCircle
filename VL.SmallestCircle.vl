@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="E3uRkWSCvoPMTLrtR3gyX6" LanguageVersion="2020.1.7.184" Version="0.128">
-  <NugetDependency Id="Kv04ptQckD9L4WMbqX3mtU" Location="VL.CoreLib" Version="2020.1.7" />
-  <Patch Id="BFjHWM2GM7aPFi3hgZTMLG">
-    <Canvas Id="Ob0H32GhqDOOoiRkqSPwzB" DefaultCategory="2D" CanvasType="FullCategory">
+<Document xmlns:p="property" xmlns:r="reflection" Id="GK6bjsgEUeVMYVROv0qGVm" LanguageVersion="2025.7.0-0024-g213ba6afdf" Version="0.128">
+  <NugetDependency Id="H0Eg8q2OaE5PjdW8Pt2ngD" Location="VL.CoreLib" Version="2025.7.0-0024-g213ba6afdf" />
+  <Patch Id="PFlukjXJsPuMTQktUOSajr">
+    <Canvas Id="Uz6NnPJoOWEOR0CJ5CynHO" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
 
     ************************ SmallestCircle ************************
 
 -->
-      <Node Name="SmallestCircle" Bounds="581,247,112,82" Id="KHsy6tzkk5AMLOd8TxliqT">
+      <Node Name="SmallestCircle" Bounds="426,137,112,82" Id="PlfgmeDcq4HLlXFIAXQH6c">
         <p:NodeReference>
           <Choice Kind="OperationDefinition" Name="Operation" />
-          <FullNameCategoryReference ID="Primitive" />
+          <CategoryReference Kind="Category" Name="Primitive" />
         </p:NodeReference>
         <p:HideCategory p:Type="Boolean">false</p:HideCategory>
-        <Patch Id="NHmoS5iqzJbMeH5zeXIaWO">
-          <Node Bounds="593,279,80,19" AutoConnect="true" Id="MLrAal8WwGqNmjt7o823lj">
-            <p:NodeReference LastCategoryFullName="VL.Lib.Mathematics.SmallestEnclosingCircle" LastSymbolSource="SmallestEnclosingCircle.dll">
+        <Patch Id="KpUS3S5eQYZLbLDF7x8hRU">
+          <Node Bounds="438,169,80,19" AutoConnect="true" Id="FOoKO1psf4sMM8ZOAMrxQN">
+            <p:NodeReference LastCategoryFullName="VL.Lib.Mathematics.SmallestEnclosingCircle" LastDependency="VL.SmallestCircleUtils.dll">
               <Choice Kind="OperationNode" Name="SmallestCircle" />
               <FullNameCategoryReference ID="VL.Lib.Mathematics.SmallestEnclosingCircle" />
             </p:NodeReference>
-            <Pin Id="FRSPBh1v2tXLHVaOPsbYOU" Name="Points" Kind="InputPin" />
-            <Pin Id="GZpwsbnMLBtLDoSANst9tX" Name="Result" Kind="OutputPin" />
+            <Pin Id="AU16nY1W0ImMi5rzIZjRff" Name="Points" Kind="InputPin" />
+            <Pin Id="Vvw1FaqXUneNK5wy8pi8Cc" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pin Id="BcVYpdcUXdmOSd26b0f4Nm" Name="Points" Kind="InputPin" />
-          <Pin Id="R1t4gQULBJpNwYJmW6rkvz" Name="Result" Kind="OutputPin" />
+          <Pin Id="Ju7lEJWF50yLcF6PpuZpAL" Name="Points" Kind="InputPin" />
+          <Pin Id="TDHqdVeE2xtL9Fgx0SWHcT" Name="Result" Kind="OutputPin" />
         </Patch>
       </Node>
     </Canvas>
@@ -33,22 +33,21 @@
     ************************ Application ************************
 
 -->
-    <Node Name="Application" Bounds="100,100" Id="FjbN8HyIbFsPKA2E6ex10Q">
+    <Node Name="Application" Bounds="100,100" Id="Uh04ibtHW6yMekC6VtgGiT">
       <p:NodeReference>
         <Choice Kind="ContainerDefinition" Name="Process" />
-        <FullNameCategoryReference ID="Primitive" />
+        <CategoryReference Kind="Category" Name="Primitive" />
       </p:NodeReference>
-      <Patch Id="GgM3RlL55qoNL5oe61Z9hE">
-        <Canvas Id="Vg7bgI16jC8Mcbphm72vFe" CanvasType="Group" />
-        <Patch Id="TqnP0DJChp7NegVCFcUT1f" Name="Create" />
-        <Patch Id="B79OT5XngH9N5CiZgnWvlO" Name="Update" />
-        <ProcessDefinition Id="G4ZVFgl5dSuMZL3zHKCXnP">
-          <Fragment Id="Fi3ihXNXsloMyNd5fgrLbT" Patch="TqnP0DJChp7NegVCFcUT1f" Enabled="true" />
-          <Fragment Id="AZUEmuT4tWNMr5LmAaVZyW" Patch="B79OT5XngH9N5CiZgnWvlO" Enabled="true" />
+      <Patch Id="HmiEpWSyI6NLR7SJNx8Tc3">
+        <Canvas Id="E4ZOBi3nWbuPxHtR2U5uTW" CanvasType="Group" />
+        <Patch Id="HvFdzyD8h3hNvDvAeQRcPq" Name="Create" />
+        <Patch Id="PHtjoySKSQTOnAh18UAQlS" Name="Update" />
+        <ProcessDefinition Id="UleFUelOZRfNcZjhkqX5xF">
+          <Fragment Id="E0MbUWprdkmN8vOyP5knF3" Patch="HvFdzyD8h3hNvDvAeQRcPq" Enabled="true" />
+          <Fragment Id="KBYnXHeWZu1LBsiSKIQoHq" Patch="PHtjoySKSQTOnAh18UAQlS" Enabled="true" />
         </ProcessDefinition>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="FofBi2xVBv9Oh37OR8XrOs" Location="VL.Skia" Version="2020.1.7" />
-  <PlatformDependency Id="EBOgfZcWxkfPmGcmpOGOAf" Location="./lib/netstandard2.0/SmallestEnclosingCircle.dll" />
+  <PlatformDependency Id="DrxcYcuSrwsO2boLmQYIQW" Location="./lib/net8.0/VL.SmallestCircleUtils.dll" />
 </Document>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VL.SmallestCircleUtils</name>
+    </assembly>
+    <members>
+        <member name="M:VL.Lib.Mathematics.SmallestEnclosingCircle.SmallestCircle(VL.Lib.Collections.Spread{Stride.Core.Mathematics.Vector2})">
+            <summary>
+            Returns the smallest circle that encloses all the given points. Runs in expected O(n) time, randomized.
+            Note: If 0 points are given, a circle of radius -1 is returned. If 1 point is given, a circle of radius 0 is returned.
+            </summary>
+            <param name="points"> Spread of Vector2</param>
+            <returns></returns>
+        </member>
+        <member name="M:VL.Lib.Mathematics.CircleExtensions.Contains(VL.Lib.Mathematics.Circle,Stride.Core.Mathematics.Vector2)">
+            <summary>
+            circleContainsVector2
+            </summary>
+            <param name="circle"></param>
+            <param name="point"></param>
+            <returns></returns>
+        </member>
+        <member name="F:VL.Lib.Mathematics.CircleExtensions.INVALID">
+            <summary>
+            util to make a new invalid circle
+            </summary>
+        </member>
+    </members>
+</doc>
