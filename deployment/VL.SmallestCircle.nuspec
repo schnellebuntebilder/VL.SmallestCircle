@@ -7,13 +7,14 @@
     <authors>sebl</authors>
     <owners>sebl</owners>
     <projectUrl>https://github.com/schnellebuntebilder/VL.SmallestCircle</projectUrl>
+    <repository type="git" url="https://github.com/schnellebuntebilder/VL.SmallestCircle" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>smallest enclosing circle</summary>
     <description>Calculate the smallest enclosing circle for a set of 2D points</description>
-    <copyright>Copyright © 2021. All rights reserved.</copyright>
-    <tags>VVVV, VL, 2D</tags>
-	<license type="expression">	LGPL-2.1-or-later</license>
+    <tags>VVVV, VL, 2D, math</tags>
+	  <license type="expression">LGPL-3.0-only</license>
     <icon>icon\nugeticon.png</icon>
+    <readme>docs\README.md</readme>
   </metadata>
   <files>
     <file src="..\VL.SmallestCircle.vl" target="" exclude="" />
